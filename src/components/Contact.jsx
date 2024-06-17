@@ -57,7 +57,7 @@ function ContactForm() {
               to contact us.
             </p>
           </div>
-          <div className="grid grid-cols-1 my-20 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 my-24 md:grid-cols-2 gap-8">
             <div className="flex items-center justify-center">
               <img
                 src={image}
@@ -68,7 +68,7 @@ function ContactForm() {
             <div>
               <form
                 onSubmit={handleSubmit}
-                className="shadow-md rounded-lg p-16"
+                className="shadow-2xl rounded-lg p-16"
               >
                 <div className="mb-6">
                   <label
@@ -134,7 +134,7 @@ function ContactForm() {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className="md:mt-10 -mt-24 "  />
       <Footer />
     </>
   );

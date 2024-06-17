@@ -29,17 +29,7 @@ const About = () => {
       <div className="w-full text-center md:w-1/4 p-2">
         <h1 className="my-10 md:text-4xl text-2xl font-semibold ">Hey, I'm Deepak!</h1>
         <p className="text-lg leading-6">
-          Pretty much right out of high school, I impulsively joined the Army. I
-          didn’t really know what I was getting into but I knew it was going to
-          be an adventure. I ended up deploying twice but it was during my first
-          tour in Afghanistan when I found my love for photography. I bought a
-          decent camera and started shooting this crazy part of the world where
-          I called home for a year. National Geographic shot a documentary
-          (Inside The Green Berets) on my camp and ended up using my photos to
-          promote their documentary. I was instantly turned on by the thrill of
-          telling stories through images. Not to sound cheesy but it’s a pretty
-          great feeling when you finally find the one thing you want to do for
-          the rest of your life.
+          Hello, everyone! I’m Deepak, a passionate photographer with over 5 years of experience capturing unforgettable moments. My journey has taken me across India, where I’ve shot weddings, engagements, and birthday celebrations in the beautiful landscapes of Uttarakhand, the vibrant culture of Punjab, the bustling streets of Delhi, and the glamorous city of Mumbai. My work blends artistry with technical expertise, creating stunning visuals that tell unique stories. my goal is to tell a story through my photographs that resonates with my clients and their loved ones. Discovering my diverse experiences and the emotions I’ve captured through my lens will surely leave you amazed!
         </p>
         <div className="mt-10" >
         <Link

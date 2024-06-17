@@ -8,7 +8,7 @@ const Feature = () => {
       <h2 className="md:text-5xl text-3xl text-center font-normal tracking-normal mb-24">Blog Posts</h2>
       <div className="grid grid-cols-1 md:-ml-80 md:grid-cols-3 gap-8 md:gap-x-96 md:gap-y-20 w-full max-w-5xl px-4">
         {DATA.map((item, index) => (
-          <div key={item.id} className="relative h-96 w-96">
+          <div key={item.id} className="relative w-72 h-72 ml-10 md:ml-0 md:h-96 md:w-96">
             <div className="absolute inset-0">
               <img
                 src={item.image}
