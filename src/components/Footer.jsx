@@ -7,17 +7,17 @@ const Footer = () => {
     <footer className="mt-5 p-8 lg:p-20 text-white">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between">
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
-          <h3 className="text-xl font-bold mb-4">About</h3>
+          <h3 className="text-3xl font-semibold mb-4">About</h3>
           <p className="text-base">
-            Wholesale distributor and trader of high-quality scrap materials,
-            including Millberry Copper Wire Scrap, High Purity Copper Cathode,
-            Copper Wire Scrap, Aluminium 6063 Scrap, Aluminium Wheel Scrap,
-            Insulated Copper Wire Scrap, and Tungsten Scrap. Import and export
-            services available.
+            A passionate photographer with over 5 years of experience. I’ve shot
+            weddings, engagements, and birthday celebrations in Uttarakhand,
+            Punjab, Delhi, and Mumbai. My dedication to capturing unique moments
+            has taken me across India, creating stunning visuals and
+            unforgettable memories.
           </p>
         </div>
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0 lg:ml-16">
-          <h3 className="text-2xl font-semibold mb-6">Contact Info</h3>
+          <h3 className="text-3xl font-semibold mb-6">Contact Info</h3>
           <p className="text-base flex items-center">
             <MdLocationOn className="mr-2" /> G-1098 Rampark Ext Loni Gzb
           </p>
