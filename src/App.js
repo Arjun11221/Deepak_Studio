@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Toaster position="top-center" toastOptions={{ duration: 3000 }} />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
