@@ -10,6 +10,8 @@ import image9 from "../assets/blogimage9.jpg";
 import image10 from "../assets/best1.jpg";
 import image11 from "../assets/best2.jpg";
 import image12 from "../assets/best3.jpg";
+import image13 from "../assets/carousel3.jpg";
+import image14 from "../assets/carousel2.jpg";
 
 export const DATA = [
     {
@@ -104,4 +106,39 @@ export const BEST = [
         image : image12
 
     }
+]
+
+export const SERVICES = [
+    {
+        id:1,
+        title : "WEDDING",
+        description : "A happy marriage is a long conversation which always seems too short. It's about sharing your thoughts, your dreams, and your fears. It's about listening, discerning, and being there for each other through thick and thin. Marriage is not just a union of two people; it's a bond that lasts a lifetime",
+        image1 : image13,
+        image2 : image14
+
+    },
+    {
+        id:2,
+        title : "BIRTHDAY",
+        description : "Birthdays are a time to celebrate the joy of life. They remind us to cherish the moments, to embrace the blessings, and to look forward to the adventures ahead.",
+        image1 : image13,
+        image2 : image14
+
+    },
+    {
+        id:3,
+        title : "HALDI",
+        description : "As you celebrate the haldi ceremony, may the turmeric paste bring you both good luck, prosperity, and everlasting love. May your life together be as bright and beautiful as the haldi on your skin.",
+        image1 : image13,
+        image2 : image14
+
+    },
+    {
+        id:4,
+        title : "ENGAGEMENT",
+        description : "As you exchange rings and hearts today, may your engagement be a symbol of the love and commitment you share. Wishing you a lifetime of love and happiness together",
+        image1 : image13,
+        image2 : image14
+
+    },
 ]
