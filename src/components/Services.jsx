@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { SERVICES } from "../utils/constant";
 import Friend from "./Friend";
 import Footer from "./Footer";
