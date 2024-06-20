@@ -14,7 +14,7 @@ const Services = () => {
       </h2>
       {SERVICES.map((service) => (
         <div className="flex md:mt-24 flex-col md:flex-row justify-between items-start p-4">
-          {/* Second Section */}
+
           <div className="w-full ml-2 md:w-1/4 p-2 flex justify-center">
             <img
               src={service.image1}
@@ -23,7 +23,6 @@ const Services = () => {
             />
           </div>
 
-          {/* Third Section */}
           <div className="w-full md:mt-32 text-center md:w-1/4 p-2">
             <h2 className="text-base font-semibold tracking-widest mb-6">
               {service.title}

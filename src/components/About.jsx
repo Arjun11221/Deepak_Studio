@@ -13,19 +13,17 @@ const About = () => {
   return (
     <>
     <div className="flex md:mt-20 flex-col md:flex-row justify-between items-start p-4">
-      {/* First Section */}
+
       <div className="w-full md:w-1/4 p-2">
         <h2 className="md:text-8xl text-4xl text-center md:mt-16 font-normal md:ml-16 mb-4">
           HOW <br /> I <br /> GOT <br /> INTO <br /> THIS...
         </h2>
       </div>
 
-      {/* Second Section */}
       <div className="w-full md:w-1/4 p-2 flex justify-center">
         <img src={artist} alt="About" className="md:w-full w-64 h-auto object-cover" />
       </div>
 
-      {/* Third Section */}
       <div className="w-full text-center md:w-1/4 p-2">
         <h1 className="my-10 md:text-4xl text-2xl font-semibold ">Hey, I'm Deepak!</h1>
         <p className="text-lg leading-6">
