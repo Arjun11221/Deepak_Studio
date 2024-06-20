@@ -4,7 +4,7 @@ import backimage from "../assets/background.jpg";
 
 const Friend = () => {
   return (
-    <div className="relative md:mt-28 mt-20 md:mb-10 h-screen">
+    <div className="relative md:mt-32 mt-20 md:mb-10 h-screen">
       <div className="absolute inset-0">
         <img src={backimage} alt="Background" className="w-full h-full object-cover" />
       </div>

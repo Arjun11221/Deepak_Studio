@@ -25,7 +25,7 @@ const Film = () => {
           />
         </div>
       </div>
-      <hr className="md:mt-40 mt-28 "  />
+      <hr className="md:mt-36 mt-28 "  />
     </div>
   );
 };

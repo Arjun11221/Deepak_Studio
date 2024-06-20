@@ -8,7 +8,7 @@ import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
 
 const Body = () => {
   return (
-    <div className="h-[550px] -mt-28 md:mt-6 w-screen flex justify-center items-center overflow-hidden">
+    <div className="h-[550px] -mt-32 md:mt-6 w-screen flex justify-center items-center overflow-hidden">
       <Carousel
         showArrows={true}
         autoPlay={true}

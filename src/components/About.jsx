@@ -43,6 +43,7 @@ const About = () => {
     </div>
     <Best/>
     <Friend/>
+    <hr className="md:mt-36 mt-28 "  />
     <Footer/>
     </>
   );
