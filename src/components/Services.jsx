@@ -19,7 +19,7 @@ const Services = () => {
             <img
               src={service.image1}
               alt="About"
-              className="md:w-full w-64 h-auto object-cover"
+              className="md:w-full rounded-md w-64 h-auto object-cover"
             />
           </div>
 
@@ -45,7 +45,7 @@ const Services = () => {
             <img
               src={service.image2}
               alt="About"
-              className="md:w-full w-64 h-auto object-cover"
+              className="md:w-full rounded-md w-64 h-auto object-cover"
             />
           </div>
         </div>
